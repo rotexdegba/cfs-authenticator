@@ -1,0 +1,27 @@
+{
+    "name": "cfs/authenticator",
+    "type": "library",
+    "description": "This package extends auraphp/Aura.Auth (https://github.com/auraphp/Aura.Auth) by adding a custom LDAP adapter for the NRCan's LDAP / Active Directory setup.",
+    "keywords": [
+        "auth",
+        "authenticate",
+        "authentication"
+    ],
+    "homepage": "https://bitbucket.org/cfsweb/cfs-authenticator",
+    "license": "BSD-2-Clause",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=5.3.0",
+        "aura/auth": "^2.0"
+    },
+    "require-dev": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    },
+    "autoload-dev": {
+        "classmap": ["src/", "tests/"]
+    }
+}
