@@ -2,7 +2,7 @@
 
 This package extends auraphp/Aura.Auth (https://github.com/auraphp/Aura.Auth) by adding a custom LDAP adapter for the NRCan's LDAP / Active Directory setup.
 
-###Demo Code:
+### Demo Code:
 
 ```php
 <?php
