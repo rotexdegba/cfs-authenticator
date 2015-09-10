@@ -260,7 +260,7 @@ class CfsLdapAdapter extends \Aura\Auth\Adapter\LdapAdapter
             $this->throwLdapOperationException($conn, $msg);
         }
         
-        if ($entries['count'] > 0) {
+        if ( $entries['count'] > 0 ) {
             
             //return the DN of the 1st entry returned by the call to ldap_get_entries()
             return $entries[0]['dn'];
