@@ -8,7 +8,7 @@
         <?php
             require_once './vendor/autoload.php';
 
-            function ebr($var) {
+            function ebr( $var ) {
                 
                 echo $var.'<br>'; 
             }

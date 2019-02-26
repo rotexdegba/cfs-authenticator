@@ -11,7 +11,7 @@ class CfsLdapAdapter extends \Aura\Auth\Adapter\LdapAdapter
     ////////////////////////////////////////////////////////////////////////////
     // \Aura\Auth\Adapter\LdapAdapter protected properties redefined here for
     // clarity (reduce the need to keep going back and forth between the code 
-    // for this class and its parent class (\Aura\Auth\Adapter\LdapAdapter) ).
+    // for this class and its parent class (\Aura\Auth\Adapter\LdapAdapter) ). 
     ////////////////////////////////////////////////////////////////////////////
     
     /**
